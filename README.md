@@ -1,28 +1,89 @@
-
----
-
-# Quant-Infrastructure-Lab — README
-
-```markdown
 # Quant-Infrastructure-Lab
 
-Experimental infrastructure for building financial market systems.
+Experimental infrastructure for building financial market data systems.
 
-This repository explores the engineering foundations required for high-frequency and quantitative trading infrastructure.
+This repository explores the **engineering foundations behind quantitative and trading infrastructure**, focusing on data pipelines, processing systems, and performance characteristics.
+
+This is **not trading strategy research**.
+
+This is **system-level engineering**.
 
 ---
 
 ## 🎯 Purpose
 
-To understand and implement the internal mechanics of financial systems at the infrastructure level.
+To understand and implement the internal mechanics of financial systems at the **infrastructure layer**.
 
-This is NOT strategy research.
+The goal is to learn how real trading and market data systems are built:
 
-This is system-level engineering.
+- ingesting market data
+- processing high-frequency streams
+- designing reliable pipelines
+- building deterministic and replayable systems
+
+---
+
+## 🏗 Current Architecture
+
+The repository currently contains a **basic simulated market data pipeline**.
+
+Producer
+│
+▼
+MarketTick (EURUSD price updates)
+│
+▼
+Processor
+│
+▼
+Spread / analytics calculation
+
+---
+
+
+### Components
+
+**QuantInfrastructure.Core**
+
+Shared financial data models.
+
+Example:
+
+MarketTick
+Symbol
+Price
+Timestamp
+
+
+---
+
+**QuantInfrastructure.Producer**
+
+Simulates a **market data feed**.
+
+Responsibilities:
+
+- generate price ticks
+- simulate continuous market updates
+- publish tick data
+
+---
+
+**QuantInfrastructure.Processor**
+
+Simulates a **data analytics pipeline**.
+
+Responsibilities:
+
+- consume ticks
+- calculate spread
+- simulate processing stage in trading systems
 
 ---
 
 ## 🔬 Modules (Planned)
+
+Future infrastructure experiments will include:
 
 - Event bus simulation
 - Order book engine
@@ -37,12 +98,15 @@ This is system-level engineering.
 
 ## 🧠 Engineering Focus
 
-- Low-latency processing
-- Memory efficiency
-- Lock-free data structures (future)
-- Event streaming
-- Deterministic replay
-- Performance benchmarking
+This lab focuses on the engineering challenges behind financial systems:
+
+- streaming data pipelines
+- low-latency processing
+- memory efficiency
+- deterministic state transitions
+- event streaming architectures
+- replayable systems
+- performance benchmarking
 
 ---
 
@@ -50,16 +114,16 @@ This is system-level engineering.
 
 - C# / .NET
 - BenchmarkDotNet
-- In-memory event store
-- SQL/Time-series storage experiments
+- In-memory event pipelines
+- Future: time-series storage experiments
 
 ---
 
 ## 📈 Objective
 
-To engineer infrastructure capable of handling:
+To engineer infrastructure capable of supporting:
 
-- High message throughput
-- Deterministic state transitions
-- Event consistency
-- Replayable systems
+- high message throughput
+- deterministic processing
+- reliable event pipelines
+- replayable system state
