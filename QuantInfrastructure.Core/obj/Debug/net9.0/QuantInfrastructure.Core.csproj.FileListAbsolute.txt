@@ -1,0 +1,11 @@
+C:\Users\hp\source\repos\quant-infrastructure-lab\QuantInfrastructure.Core\bin\Debug\net9.0\QuantInfrastructure.Core.deps.json
+C:\Users\hp\source\repos\quant-infrastructure-lab\QuantInfrastructure.Core\bin\Debug\net9.0\QuantInfrastructure.Core.dll
+C:\Users\hp\source\repos\quant-infrastructure-lab\QuantInfrastructure.Core\bin\Debug\net9.0\QuantInfrastructure.Core.pdb
+C:\Users\hp\source\repos\quant-infrastructure-lab\QuantInfrastructure.Core\obj\Debug\net9.0\QuantInfrastructure.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\source\repos\quant-infrastructure-lab\QuantInfrastructure.Core\obj\Debug\net9.0\QuantInfrastructure.Core.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\quant-infrastructure-lab\QuantInfrastructure.Core\obj\Debug\net9.0\QuantInfrastructure.Core.AssemblyInfo.cs
+C:\Users\hp\source\repos\quant-infrastructure-lab\QuantInfrastructure.Core\obj\Debug\net9.0\QuantInfrastructure.Core.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\quant-infrastructure-lab\QuantInfrastructure.Core\obj\Debug\net9.0\QuantInfrastructure.Core.dll
+C:\Users\hp\source\repos\quant-infrastructure-lab\QuantInfrastructure.Core\obj\Debug\net9.0\refint\QuantInfrastructure.Core.dll
+C:\Users\hp\source\repos\quant-infrastructure-lab\QuantInfrastructure.Core\obj\Debug\net9.0\QuantInfrastructure.Core.pdb
+C:\Users\hp\source\repos\quant-infrastructure-lab\QuantInfrastructure.Core\obj\Debug\net9.0\ref\QuantInfrastructure.Core.dll
